@@ -23,14 +23,15 @@ h1 {
   font-weight: 200;
 }
 
-input {
+input,
+button {
   border: 1px solid rgba(252, 252, 252, 0.4);
   background-color: rgba(252, 252, 252, 0.2);
   width: 250px;
   border-radius: 3px;
   font-family: "Source Sans Pro", sans-serif;
   padding: 10px 15px;
-  margin: 0 auto 10px auto;
+  margin: 10px auto 10px auto;
   display: block;
   text-align: center;
   font-size: 18px;
@@ -48,6 +49,12 @@ input {
   border-radius: 3px;
   width: 250px;
   font-size: 18px;
+  font-weight: 800;
+}
+
+.login-button:hover {
+  background-color: #e3ffee;
+  transition: 0.5s;
 }
 
 .logout-button {
@@ -56,18 +63,15 @@ input {
   right: 1rem;
   font-size: 12px;
   width: 150px;
+  font-weight: 800;
 }
 
-.form-body h1 {
+h1 {
   margin-bottom: 2rem;
 }
 
 .error {
   margin-bottom: 0.8rem;
   color: rgb(248, 239, 155);
-  font-weight: 800;
-}
-
-.submit-button {
   font-weight: 800;
 }
